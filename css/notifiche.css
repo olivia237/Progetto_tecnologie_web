@@ -1,0 +1,40 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+caption {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+td {
+    margin-top: 2%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+td.data-notifica, td.titolo-notifica {
+    width: 22%;
+}
+div.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 1px;
+    height: 10%;
+    color:white;
+}
+div.container a.admin button.btn {
+    background-color: white;
+    color:  #076cf1;;
+    border-color: #076cf1;
+}
+tr.notifica-non-visto {
+    background-color:#30c486 ;
+}
+tr.notifica-visto {
+    background-color: white;
+}
+div.container-notifiche {
+    height: 70%;
+
+}
