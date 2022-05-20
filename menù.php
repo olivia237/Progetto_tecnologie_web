@@ -26,7 +26,6 @@ if (login()) {
     $templateParams["nome"] = "template/menù.php";
     $templateParams["css"] = "css/menù.css";
     $templateParams["js"] = "js/menù.js";
-    $templateParams["js"] = "js/search.js";
 
 require("template/base.php");
 ?>
