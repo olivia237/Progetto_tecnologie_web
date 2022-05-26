@@ -58,11 +58,13 @@ else{
         $templateParams["titolo"] = "Homepage";
         $templateParams["nome"] = "Home.php";
         $templateParams["css"] = "css/homepage.css";
+        $templateParams["js"] = "cjs/registrazione.js";
     }
     else {
         $templateParams["titolo"] = "Registrazione";
         $templateParams["nome"] = "template/registrazione.php";
         $templateParams["css"] = "css/registrazione.css";
+        $templateParams["js"] = "js/registrazione.js";
     }
 }
 
