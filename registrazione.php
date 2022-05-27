@@ -59,12 +59,20 @@ else{
         $templateParams["titolo"] = "Homepage";
         $templateParams["nome"] = "Home.php";
         $templateParams["css"] = "css/homepage.css";
+<<<<<<< HEAD
         $templateParams["js"] = "js/Home.js";
+=======
+        $templateParams["js"] = "cjs/registrazione.js";
+>>>>>>> 72e2bfcb7c3c76849e83eaf201941c402d513c7c
     }
     else {
         $templateParams["titolo"] = "Registrazione";
         $templateParams["nome"] = "template/registrazione.php";
+<<<<<<< HEAD
         $templateParams["css"] = "css/login.css";
+=======
+        $templateParams["css"] = "css/registrazione.css";
+>>>>>>> 72e2bfcb7c3c76849e83eaf201941c402d513c7c
         $templateParams["js"] = "js/registrazione.js";
     }
 }
