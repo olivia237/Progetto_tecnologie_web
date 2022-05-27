@@ -18,7 +18,7 @@ if (login()) {
     }
 }
 $templateParams["titolo"] = "Dati Personali";
-$templateParams["nome"] = "dati_personali_form.php";
+$templateParams["nome"] = "template/dati_personali_form.php";
 $templateParams["css"] = "css/dati_personali.css";
 
 

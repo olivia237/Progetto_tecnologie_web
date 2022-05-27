@@ -4,13 +4,12 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- titolo delle pagine -->
     <title><?php echo $templateParams["titolo"]; ?></title>
-
+    <link rel="icon" type="./resources/x-icon" href="./resources/favicon.ico">
     <!--jquery-->
    <script src="https://code.jquery.com/jquery-3.4.1.min.js"integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
     <?php
@@ -155,6 +154,7 @@
     <ul class="nav justify-content-center mb-3 text-muted">
       <li class="nav-item"><a href="index.php" class="nav-link px-2 text-muted">Home</a></li>
       <li class="nav-item"><a href="contact_us.php" class="nav-link px-2 text-muted">contact us</a></li>
+      <li class="nav-item"><a href="read_recensioni.php" class="nav-link px-2 text-muted">Recensioni</a></li>
     </ul>
   </footer>
 

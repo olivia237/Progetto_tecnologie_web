@@ -10,7 +10,7 @@ if (login()) {
 }
 
 $templateParams["titolo"] = "Homepage";
-$templateParams["nome"] = "Home.php";
+$templateParams["nome"] = "template/Home.php";
 $templateParams["css"] = "css/homepage.css";
 
 

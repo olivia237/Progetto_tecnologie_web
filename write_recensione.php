@@ -17,8 +17,10 @@ if (login()) {
         $templateParams["tipo"] = "amministratore";
     }
 }
-$templateParams["titolo"] = "Contact";
-$templateParams["nome"] = "template/contact.php";
+$templateParams["titolo"] = "Recenzioni";
+$templateParams["nome"] = "template/write_recensione.php";
+$templateParams["js"] = "js/write_recensione.js";
+$templateParams["css"] = "css/write_recensione.css";
 
 
 require 'template/base.php';

@@ -41,4 +41,6 @@
         <strong>Metodo di pagamento:</strong> Carta di credito
         </p>
     </section>
+    <a class="recensione text-center" href="write_recensione.php"><button type="button" class="btn btn-secondary">Lascia una Recensione</button>
+    </a>
 </div>

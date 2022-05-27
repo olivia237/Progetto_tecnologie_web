@@ -5,7 +5,7 @@
         <?php endif; ?>
     <h1 class="h3 mb-3 fw-normal">Accedi</h1>
     <div class="form-floating mb-3 mt-3">
-      <input type="text"  name="nome" class="form-control" id="floatingInput" placeholder="Mario">
+      <input type="text"  name="nome" class="form-control" id="nome" placeholder="Mario">
       <label for="floatingInput">Nome</label>
     </div>
     <div class="form-floating mb-3 ">
