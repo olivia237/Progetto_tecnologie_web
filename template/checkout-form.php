@@ -4,9 +4,6 @@
   <main>
     <div class="py-5 text-center">
       <h2>Checkout</h2>
-      <?php if(isset($_SESSION["id_utente"])): ?>
-        <p class="error"><?php echo $_SESSION["id_utente"]; ?></p>
-        <?php endif; ?>
     </div>
 
     <div class="row g-5">

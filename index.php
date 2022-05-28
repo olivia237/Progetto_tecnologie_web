@@ -1,6 +1,5 @@
 
 <?php
-
 require_once("bootstrap.php");
 if (isset($_SESSION["carrello"])) {
     $result = $dbh->get_prod_nel_carello($_SESSION["carrello"]);

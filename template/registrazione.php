@@ -9,7 +9,7 @@
     <p class="login lead text-center h6 ">Benvenuto su Pizza Chef</p>    
     <h5 class="h3 mb-3 fw-normal ">Registrati per fare un ordine!</h5>
     <div class="form-floating mb-3 mt-3">
-      <input type="text" name="nome" class="form-control" id="floatingInput" placeholder="nome">
+      <input type="text" name="nome" class="form-control" id="nome" placeholder="nome">
       <label for="nome">Nome</label>
     </div>
     <div class="form-floating mb-3 ">
