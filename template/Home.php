@@ -102,7 +102,7 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
-</style>  
+</style> 
 <h1 class="uppercase text-center">Pizza Chef</h1> 
 <div class="slideshow-container">
 

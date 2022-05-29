@@ -1,3 +1,4 @@
+<div class="container p-5 my-5">
 <div class="row">
   <div class="side">
     <div>5 star</div>
@@ -54,4 +55,5 @@
   <div class="side right">
     <div>20</div>
   </div>
+</div>
 </div>
