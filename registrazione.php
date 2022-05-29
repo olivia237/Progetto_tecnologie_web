@@ -60,11 +60,19 @@ else{
         $templateParams["nome"] = "Home.php";
         $templateParams["css"] = "css/homepage.css";
         $templateParams["js"] = "js/Home.js";
+
+        $templateParams["js"] = "js/Home.js";
+        $templateParams["js"] = "cjs/registrazione.js";
+
     }
     else {
         $templateParams["titolo"] = "Registrazione";
         $templateParams["nome"] = "template/registrazione.php";
+
         $templateParams["css"] = "css/login.css";
+
+        $templateParams["css"] = "css/login.css";
+        $templateParams["css"] = "css/registrazione.css";
         $templateParams["js"] = "js/registrazione.js";
     }
 }

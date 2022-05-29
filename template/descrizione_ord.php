@@ -48,8 +48,11 @@
         <br>
         <strong>Metodo di pagamento:</strong> Carta di credito
         </p>
+
     </section> 
     <?php if(!isset($templateParams["tipo"])):?> 
+    </section>
+
 <div class= "container text-center">
     <h2>Recensione</h2>
     <div class= "h3">
@@ -63,6 +66,8 @@
         <button class="btn btn-primary " type="submit">Invia</button>
     </a>
 </div>
+
 <?php
     endif;?>
+
 </div>
