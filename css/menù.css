@@ -9,7 +9,8 @@ div.accordion > button{
     outline: none;
   }
   div.accordion > button:hover, div.accordion > button.selected{
-    background-color: rgb(96, 207, 174);
+    background-color: #43DFB0;
+    color:#161718;
   }
 
   div.accordion > div {

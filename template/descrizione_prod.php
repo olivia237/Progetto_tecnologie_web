@@ -1,7 +1,7 @@
 <div class="container">
     <div class="card">
     <?php $prodotto = $templateParams["prodotto"] ?>
-        <img src="<?php echo UPLOAD_DIR.$prodotto["img_prod"] ?>" class="card-img-top rounded" alt="<?php echo  $prodotto["nome_prod"] ?>" width="200" height="300"/>
+        <img src="<?php echo UPLOAD_DIR.$prodotto["img_prod"] ?>" class="card-img-top rounded" alt="<?php echo  $prodotto["nome_prod"] ?>"/>
         <?php 
         unsetVar("cod_prod");
         $_SESSION["cod_prod"] = $prodotto["cod_prod"];

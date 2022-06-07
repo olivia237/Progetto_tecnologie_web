@@ -6,8 +6,8 @@
         <?php if(isset($templateParams["erroreregistrazione"])): ?>
         <p><?php echo $templateParams["erroreregistrazione"]; ?></p>
         <?php endif; ?>
-    <p class="login lead text-center h6 ">Benvenuto su Pizza Chef</p>    
-    <h5 class="h3 mb-3 fw-normal ">Registrati per fare un ordine!</h5>
+    <h5 class="login lead text-center">Benvenuto su Pizza Chef</h5>    
+    <h6 class="h3 mb-3 fw-normal ">Registrati per fare un ordine!</h6>
     <div class="form-floating mb-3 mt-3">
       <input type="text" name="nome" class="form-control" id="nome" placeholder="nome">
       <label for="nome">Nome</label>

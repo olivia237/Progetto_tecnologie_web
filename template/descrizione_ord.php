@@ -1,17 +1,17 @@
 
 <div class="container">
-    <h5><?php if(isset($templateParams["tipo"]) && $templateParams["tipo"]=="amministratore") {
+    <h4 class="text-center"><?php if(isset($templateParams["tipo"]) && $templateParams["tipo"]=="amministratore") {
         echo "Contenuto ordine";
     } 
     else {
         echo "Il tuo ordine";
-    }?></h5>
+    }?></h4>
     <h6>Articoli:</h6>
     <?php if (isset($templateParams["ordine"])):
         $totale = 0;
         foreach ($templateParams["ordine"] as $prods): ?>
         <div class="row">
-            <div class="col-2">
+            <div class="col-2 mb-2">
                 <img src="<?php echo UPLOAD_DIR.$prods["img_prod"]; ?>" class="card-img-top" width="70" height="70"/>
             </div>
             <?php echo $prods["nome_prod"];?>
