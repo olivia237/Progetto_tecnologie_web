@@ -33,6 +33,7 @@ if (isset($_GET["action"]) && $_GET["action"]==1) {
         $templateParams["titolo"] = "Registrazione";
         $templateParams["nome"] = "template/registrazione.php";
         $templateParams["js"] = "js/registrazione.js";
+        $templateParams["css"] = "css/registrazione.css";
         $templateParams["action"] = "checkout";
     }
 
@@ -61,7 +62,7 @@ else{
         $templateParams["js"] = "js/Home.js";
 
         $templateParams["js"] = "js/Home.js";
-        $templateParams["js"] = "cjs/registrazione.js";
+        $templateParams["js"] = "js/registrazione.js";
 
     }
     else {

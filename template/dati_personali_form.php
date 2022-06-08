@@ -7,6 +7,6 @@
       </form>
     </div>
     <li class= "m-3">
-    <a class=" text-primary " href ="miei_ordini.php">I Miei Ordini <!--da creare-->
+    <a class=" text-primary " href ="miei_ordini.php">I Miei Ordine <!--da creare-->
     </a>
 </div>
