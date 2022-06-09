@@ -18,13 +18,11 @@ if (login()) {
 
         $templateParams["titolo"] = "Notifiche";
         $templateParams["nome"] = "template/notifiche_form.php";
-        $templateParams["css"] = "css/notifiche.css";
     }
     else
     {
         $templateParams["titolo"] = "Notifiche";
         $templateParams["nome"] = "template/niente_notifiche1.php";
-        $templateParams["css"] = "css/notifiche.css";
     }
 
 
@@ -32,7 +30,6 @@ if (login()) {
 else{
     $templateParams["titolo"] = "Notifiche";
     $templateParams["nome"] = "template/niente_notifiche2.php";
-    $templateParams["css"] = "css/notifiche.css";
 }
 require 'template/base.php';
 ?>
